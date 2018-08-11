@@ -1,0 +1,7 @@
+<Button variant="fab" mini type="submit" color="secondary" aria-label="Add" className={classes.button}>
+  <AddIcon />
+</Button>
+
+<Button variant="fab" mini onClick={()=>onDelete(groupName, id)} color="secondary" aria-label="Add" className={classes.button}>
+    <DeleteIcon/>
+</Button>
