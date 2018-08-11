@@ -29,7 +29,7 @@ const AddGroup = ({ dispatch }) => {
         groupName.value = ''
       }}>
         <Input placeholder="Add Group..." style={styles.margin10} inputRef={node=>groupName=node} />
-        <Button component="span" color="primary" type="submit">
+        <Button variant="contained" color="primary" type="submit">
           Add Group
         </Button>
       </form>
